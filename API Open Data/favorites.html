@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>API Open Data</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script defer src="js/EventService.js"></script>
+    <script defer src="js/app.js"></script>
+</head>
+
+<body id="favorites">
+    <header>
+        <nav class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="row">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 nav-logo">
+                    <img src="asset/logo.png" class="logo-img-nav">
+                </div>
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 nav-link">
+                    <a href="index.html">Accueil</a>
+                    <a href="events.html">Evenements</a>
+                    <a href="#">Favoris</a>
+                </div>
+            </div>
+        </nav>
+        <div class="header-background row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 place-main-title">
+                <h1><span class="hpt1-1">API </span><span class="hpt1-2">Open Data</span></h1>
+            </div>
+        </div>
+
+
+    </header>
+
+    <section>
+        <div class="new-event">
+            <div class="set-width">
+                <div class="container">
+                    <div class="row title-side">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 title-of-part">
+                            <h2>Tous les favoris</h2>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 title-sub-title">
+                            <p>Voici la liste de tous les évenements de Paris ajoutés aux favoris sur API Open Data</p>
+                        </div>
+                    </div>
+                    <div class="row content-side" id="all-favorites">
+
+
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 template-event">
+                            <div class="card-all">
+                                <div class="vignette-contain">
+                                    <img class="vignette" src="asset/bg-event.jpg">
+                                </div>
+                                <div class="card-content">
+                                    <div class="upper-card">
+                                        <h3>Lorem Ipsum</h3>
+                                        <p class="date-added">00/00/00</p>
+                                    </div>
+                                    <div class="in-card">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium dolor
+                                            diam, vitae fermentum massa faucibus non.</p>
+
+                                        <a class="add-fav" href="#"><img src="asset/fav.png"></a>
+                                        <a class="read-more" href="#">Voir plus</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 template-event">
+                            <div class="card-all">
+                                <div class="vignette-contain">
+                                    <img class="vignette" src="asset/bg-event.jpg">
+                                </div>
+                                <div class="card-content">
+                                    <div class="upper-card">
+                                        <h3>Lorem Ipsum</h3>
+                                        <p class="date-added">00/00/00</p>
+                                    </div>
+                                    <div class="in-card">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium dolor
+                                            diam, vitae fermentum massa faucibus non.</p>
+
+                                        <a class="add-fav" href="#"><img src="asset/fav.png"></a>
+                                        <a class="read-more" href="#">Voir plus</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 template-event">
+                            <div class="card-all">
+                                <div class="vignette-contain">
+                                    <img class="vignette" src="asset/bg-event.jpg">
+                                </div>
+                                <div class="card-content">
+                                    <div class="upper-card">
+                                        <h3>Lorem Ipsum</h3>
+                                        <p class="date-added">00/00/00</p>
+                                    </div>
+                                    <div class="in-card">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium dolor
+                                            diam, vitae fermentum massa faucibus non.</p>
+
+                                        <a class="add-fav" href="#"><img src="asset/fav.png"></a>
+                                        <a class="read-more" href="#">Voir plus</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 template-event">
+                            <div class="card-all">
+                                <div class="vignette-contain">
+                                    <img class="vignette" src="asset/bg-event.jpg">
+                                </div>
+                                <div class="card-content">
+                                    <div class="upper-card">
+                                        <h3>Lorem Ipsum</h3>
+                                        <p class="date-added">00/00/00</p>
+                                    </div>
+                                    <div class="in-card">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium dolor
+                                            diam, vitae fermentum massa faucibus non.</p>
+
+                                        <a class="add-fav" href="#"><img src="asset/fav.png"></a>
+                                        <a class="read-more" href="#">Voir plus</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 template-event">
+                            <div class="card-all">
+                                <div class="vignette-contain">
+                                    <img class="vignette" src="asset/bg-event.jpg">
+                                </div>
+                                <div class="card-content">
+                                    <div class="upper-card">
+                                        <h3>Lorem Ipsum</h3>
+                                        <p class="date-added">00/00/00</p>
+                                    </div>
+                                    <div class="in-card">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium dolor
+                                            diam, vitae fermentum massa faucibus non.</p>
+
+                                        <a class="add-fav" href="#"><img src="asset/fav.png"></a>
+                                        <a class="read-more" href="#">Voir plus</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+    <footer>
+        <script rel="javascript" type="application/javascript" href="js/jquery-3.4.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    </footer>
+</body>
+
+
+</html>

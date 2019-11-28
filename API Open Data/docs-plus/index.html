@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evénéments à Paris</title>
+
+    <style>
+        section[id] {
+            display: grid;
+            grid-template-areas: ". . .";
+        }
+    </style>
+
+    <script defer src="//unpkg.com/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script defer src="EventService.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+
+    <h1 id="timer"></h1>
+
+    <h1>Derniers événements ajoutés</h1>
+    <section id="last-events"></section>
+
+    <h1>Prochains événements</h1>
+    <section id="next-events"></section>
+
+</body>
+
+</html>
