@@ -1,4 +1,4 @@
-async function getLastEvents() {
+async function getRecentEvents() {
     const data = await $.ajax(`https://opendata.paris.fr/api/v2/catalog/datasets/que-faire-a-paris-/records?rows=3`);
 
     // Traitement du résultat
@@ -7,12 +7,11 @@ async function getLastEvents() {
     return events;
 }
 
-async function getNextEvents() {
-    const data = await $.ajax(`https://opendata.paris.fr/api/v2/catalog/datasets/que-faire-a-paris-/records?rows=3&sort=-date_start`);
+async function getAllEvents() {
+    const data = await $.ajax(`https://opendata.paris.fr/api/v2/catalog/datasets/que-faire-a-paris-/records`);
 
     // Traitement du résultat
     const events = data.records.map(record => record.record.fields);
     
     return events;
 }
-const url = 'https://opendata.paris.fr/api/v2/catalog/datasets/que-faire-a-paris-/records?rows=3'
