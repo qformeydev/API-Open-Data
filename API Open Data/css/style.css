@@ -110,17 +110,22 @@ nav{
     font-weight: normal;
     font-style: normal;
     padding: 15px 10px ;
+    border-bottom: 0px solid #000000;
+    transition: all 0.3s ease;
 }
 .header-background{
     height: 90vh;
     background-image: url('../asset/background-home.png');
     backdrop-filter: blur(100px);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #single .header-background{
     height: 90vh;
     background-image: url('../asset/bg-event.jpg');
     backdrop-filter: blur(100px);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -234,6 +239,7 @@ nav{
     border: 1px solid #23baff;
     border-radius: 4px;
     float: right;
+    transition: all 0.3s ease;
 }
 .read-more:hover{
     background-color: #ffffff;
@@ -256,6 +262,7 @@ nav{
     background-color: #23baff;
     border: 1px solid #23baff;
     border-radius: 4px;
+    transition: all 0.3s ease;
 }
 .link-to-more:hover{
     background-color: #ffffff;
@@ -329,4 +336,62 @@ nav{
     font-style: normal;
     margin: 0px;
     padding-bottom: 5px;
+}
+
+.search-me{
+    background-color: #006898;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.search-bar{
+    text-align: center;
+}
+.search-bar input{
+    font-family: 'Roboto Lt';
+    font-size: 16px;
+    color: #000000;
+    font-weight: 300;
+    font-style: normal;
+    border: none;
+    padding: 10px 60px 10px 15px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+.search-bar button{
+    font-family: 'Roboto Lt';
+    font-size: 19px;
+    color: #23baff;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #ffffff;
+    border: 1px solid #23baff;
+    margin-left: 15px;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+.search-bar button:hover{
+    color: #ffffff;
+    background-color: #23baff;
+    border: 1px solid #23baff;
+}
+.link-single-more{
+    color: #23baff;
+    font-family: 'Roboto Lt';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0px;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+}
+.link-single-more:hover{
+    text-decoration: none;
+}
+
+
+.nav-link a:hover{
+    border-bottom: 1px solid #000000;
+    text-decoration: none;
+
 }
